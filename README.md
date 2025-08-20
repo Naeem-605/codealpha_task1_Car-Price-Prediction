@@ -1,2 +1,22 @@
 # codealpha_task1_Car-Price-Prediction
-This project implements a Car Price Prediction System using machine learning techniques. The system is designed to predict the selling price of cars based on various features, helping users, dealers, and businesses make informed decisions.The primary goal is  develop a reliable and accurate machine learning model  can predict car prices efficiently
+The Car Price Prediction System is a machine learning project designed to predict the selling price of cars based on features like year, present price, kilometers driven, fuel type, seller type, transmission, and previous owners. The project involves data preprocessing, feature engineering, model training, and evaluation to provide accurate price predictions for new car inputs.
+
+Work Done:
+
+Collected and explored car dataset.
+
+Created new feature Car_Age from year of manufacture.
+
+Handled categorical features using one-hot encoding (Fuel_Type, Seller_Type, Transmission).
+
+Split data into training and testing sets.
+
+Trained Random Forest Regressor for price prediction.
+
+Evaluated model using R² Score, MAE, and RMSE.
+
+Saved trained model using joblib for real-time predictions.
+
+Built a pipeline to input new car data and predict selling price instantly.
+
+This project demonstrates practical use of machine learning for real-world price estimation, showcasing skills in Python, Pandas, Scikit-learn, and model deployment.
